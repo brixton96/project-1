@@ -40,8 +40,37 @@ def turunan():
     pass
 
 def aritmatika():
+    print('''Selamat datang di program Python 
+      1. Bangun Ruang
+      2. Bangun Datar
+      3. Operasi Aritmatika
+    ''')
+    pilihan = int(input("Masukkan operasi yang anda inginkan: "))
+    if pilihan == 1:
+        bangunRuang()
+    elif pilihan == 2:
+        bangunDatar()
+    elif pilihan == 3:
+        operasiAritmatika()
+
+
+
+    
+        
+
+
+
+
+## put ALL the function below here
+
+def bangunRuang():
     pass
 
+def operasiAritmatika():
+    pass
+
+def bangunDatar():
+    pass
 
 def logaritma():
     pass
